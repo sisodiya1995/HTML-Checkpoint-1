@@ -1,0 +1,263 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    /* Home-Page STYLE*/
+body{
+	width: 100%;
+}
+header{
+	margin-left: 100px;
+	margin-right: 100px;
+    padding: 25px ;
+    background-color:#07154C;
+    text-align: center;
+}
+a{
+	padding: 10px;
+     padding-right: 20px;
+    text-align: left;
+	color: #19BB3D;
+}
+.home{
+	padding: 10px;
+    color: #0F8441;
+}
+.blog{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+p{text-align: center;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size:20px ;
+}
+hr{
+    width: 560px;
+    border-color: black;
+    border-style: dashed;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+	border-top-width:0;
+}
+.square_box{
+	width: 100px;
+	height: 100px;
+	background-color:#99D8CA;
+	border:14px #5873E2 solid;
+	outline: 4px black solid ;
+}
+.parent-square-box{
+	border: 15px #90FFA9 solid;
+	width: 129px;
+	height: 129px;
+	display: inline-block;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 700px;
+	border-radius: 10px;
+}
+.container-circle{
+	text-align: center;
+	margin-top: 30px;
+}
+.circle-1{
+	height: 10px;
+	width: 10px;
+	background-color: #99DACA;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+}
+.circle-2{
+	height: 10px;
+	width: 10px;
+	background-color: #0D1430;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+}
+.circle-3{
+	height: 10px;
+	width: 10px;
+	background-color:#90FFA9;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+}
+.circle-4{
+	height: 10px;
+	width: 10px;
+	background-color:#5873A2;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+p{
+	text-align: center;
+}
+.parent-box{
+	margin-top: 20px;
+	width: 561px;
+	height: 106px;
+	border: 2px black solid;
+	margin-left: 500px;
+}
+.children{
+	margin-top: 3px;
+	width: 180px;
+	height: 100px;
+	background-color:#CCCCCC;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 3px;
+	padding-right: 10px;	
+}
+.children-border{
+	margin-top: 3px;
+	width: 180px;
+	height: 100px;
+	border: 2px black solid;
+	background-color:#CCCCCC;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 3px;
+	padding-right: 10px;
+}
+.center{
+    text-align: center;
+}
+.blog-1{
+text-decoration: none;
+text-align: center;
+color: #0F8441;
+}
+.home-1{
+text-decoration: none;
+text-align: center;
+color: white;
+}
+
+/* Blog-Page Style */
+.article-one{
+	width: 100%;
+	 margin-top: 20px; 
+   }
+
+img{
+	width: 100%;
+	height: inherit;
+}
+
+.article-content{
+	width: 426px;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 250px;
+    vertical-align: top;
+	padding-left: 15px ;
+}
+button{
+	color: white;
+	background-color:#19BB3D;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 20px;
+	border-radius:20px;
+	border: none;	
+}
+ .image-div{
+      display: inline-block;
+	 width: 426px;
+	 height: 250px;
+	 margin: 0 20px;
+	 box-sizing: border-box;	 
+} 
+.heading{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+}
+.para{
+	padding-bottom: 10px;
+	text-align: left;
+	margin-left: -1px;
+	display: inline-block;
+}
+.learn-more{
+	margin-left: -8px;
+}
+.article-content2{
+	width:426px ;
+	margin-top: 10px;
+	margin-left: 18px;
+	text-align:left;
+}
+ .article-2{
+	 margin-top: 20px;
+	 vertical-align: top;	
+     display: inline-block;
+    box-sizing: border-box;
+}
+.article-3{
+	margin-top: 20px;
+	margin-right: 5px;
+	vertical-align: top;
+	display: inline-block;
+	box-sizing: border-box;
+} 
+.container{
+	margin: 0 auto;
+	max-width: 942px;
+}
+
+
